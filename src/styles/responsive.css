@@ -163,20 +163,6 @@
     }
 }
 
-.sidebar {
-    width: 70px;
-    min-width: 70px;
-    padding: 12px 4px;
-}
-
-.sidebar nav button {
-    font-size: 9px;
-    padding: 10px 2px;
-}
-
-.sidebar nav button span {
-    font-size: 18px;
-}
 
 /* WELCOME PAGE RESPONSIVE */
 
