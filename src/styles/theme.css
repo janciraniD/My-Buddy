@@ -1,0 +1,407 @@
+
+/* MY BUDDY - DARK COLOR THEMES */
+
+:root {
+    --primary: #B76E79;
+    --primary-dark: #8F4D60;
+    --background: #17151B;
+    --surface: #24212A;
+    --secondary: #C4B9C9;
+    --text: #F8F4F5;
+    --muted: #B8ABB5;
+    --border: #403642;
+    --success: var(--primary);
+    --danger: #E66B75;
+    --font-family: 'Poppins', sans-serif;
+}
+
+/* THEME 1 */
+[data-theme="1"] {
+    --primary: #8FAFC4;
+    --primary-dark: #668BA5;
+    --background: #1D2730;
+    --surface: #293642;
+    --text: #EEF5F9;
+    --muted: #B1C2CE;
+    --border: #405363;
+}
+
+/* THEME 2 */
+[data-theme="2"] {
+    --primary: #B76E79;
+    --primary-dark: #8F4D60;
+    --background: #24171D;
+    --surface: #35232B;
+    --text: #F8ECEE;
+    --muted: #D1ADB6;
+    --border: #563743;
+}
+
+/* THEME 3 */
+[data-theme="3"] {
+    --primary: #C4B9C9;
+    --primary-dark: #82758D;
+    --background: #211D29;
+    --surface: #302A3A;
+    --text: #F3EDF7;
+    --muted: #C4B9C9;
+    --border: #494052;
+}
+
+/* THEME 4 */
+[data-theme="4"] {
+    --primary: #D8A85D;
+    --primary-dark: #A77A3C;
+    --background: #292117;
+    --surface: #393022;
+    --text: #FFF2D8;
+    --muted: #D5BD96;
+    --border: #59452D;
+}
+
+/* THEME 5 */
+[data-theme="5"] {
+    --primary: #777EBB;
+    --primary-dark: #474C80;
+    --background: #171A35;
+    --surface: #24294B;
+    --text: #F0F0FF;
+    --muted: #B5B9DC;
+    --border: #3C426B;
+}
+
+/* THEME 6 */
+[data-theme="6"] {
+    --primary: #C3BD79;
+    --primary-dark: #858461;
+    --background: #252518;
+    --surface: #353522;
+    --text: #F5F3D9;
+    --muted: #C9C69A;
+    --border: #505038;
+}
+
+/* THEME 7 */
+[data-theme="7"] {
+    --primary: #B76E79;
+    --primary-dark: #5E404F;
+    --background: #1D101C;
+    --surface: #30202F;
+    --text: #F8EAF5;
+    --muted: #C7A9BF;
+    --border: #51364D;
+}
+
+/* THEME 8 */
+[data-theme="8"] {
+    --primary: #91A4B8;
+    --primary-dark: #526579;
+    --background: #19232D;
+    --surface: #273541;
+    --text: #EDF4FA;
+    --muted: #B3C1CE;
+    --border: #405260;
+}
+
+/* THEME 9 */
+[data-theme="9"] {
+    --primary: #DDC5A3;
+    --primary-dark: #927B5C;
+    --background: #292219;
+    --surface: #3A3024;
+    --text: #F8EFE1;
+    --muted: #D0BFA4;
+    --border: #574734;
+}
+
+/* THEME 10 */
+[data-theme="10"] {
+    --primary: #A5A47A;
+    --primary-dark: #858461;
+    --background: #222218;
+    --surface: #323225;
+    --text: #F2F0DB;
+    --muted: #C3C19D;
+    --border: #4B4A36;
+}
+
+/* THEME 11 */
+[data-theme="11"] {
+    --primary: #975862;
+    --primary-dark: #5E404F;
+    --background: #21151D;
+    --surface: #34242F;
+    --text: #F7EAF0;
+    --muted: #C7AAB8;
+    --border: #533A49;
+}
+
+/* THEME 12 */
+[data-theme="12"] {
+    --primary: #D9BD65;
+    --primary-dark: #9D843D;
+    --background: #292415;
+    --surface: #39321E;
+    --text: #FFF5D7;
+    --muted: #D8C58C;
+    --border: #5A4C2D;
+}
+
+/* THEME 13 */
+[data-theme="13"] {
+    --primary: #6479B6;
+    --primary-dark: #112250;
+    --background: #10182E;
+    --surface: #1D2945;
+    --text: #EDF1FF;
+    --muted: #AAB9DD;
+    --border: #344361;
+}
+
+/* THEME 14 */
+[data-theme="14"] {
+    --primary: #BEB7A7;
+    --primary-dark: #827B6D;
+    --background: #24221F;
+    --surface: #35312B;
+    --text: #F3EFE7;
+    --muted: #C3BCAF;
+    --border: #504A40;
+}
+
+/* APPLY THEME COLORS */
+
+body {
+    background: var(--background);
+    color: var(--text);
+    font-family: var(--font-family);
+}
+
+.app-layout,
+.main-content,
+.auth-container {
+    background: var(--background);
+    color: var(--text);
+}
+
+.sidebar {
+    background: var(--surface);
+    color: var(--text);
+}
+
+.stat-card,
+.progress-card,
+.content-card,
+.add-task-card,
+.settings-card,
+.profile-card {
+    background: var(--surface);
+    color: var(--text);
+    border-color: var(--border);
+}
+
+.primary-btn,
+.progress-fill,
+.photo-edit,
+.toast {
+    background: var(--primary-dark);
+}
+
+.link-btn,
+.outline-btn {
+    color: var(--primary);
+}
+
+.outline-btn {
+    border-color: var(--primary);
+}
+
+.welcome-header h1,
+.page-title,
+.stat-card h2,
+.card-heading h2,
+.card-heading h3,
+.settings-card h3 {
+    color: var(--text);
+}
+
+.welcome-header p,
+.stat-card p,
+.empty-message {
+    color: var(--muted);
+}
+
+.task-form input,
+.auth-card input,
+.profile-card input,
+.password-form input,
+.settings-card select,
+.remark-input {
+    background: var(--surface);
+    color: var(--text);
+    border-color: var(--border);
+}
+
+.profile-details {
+    background: var(--background);
+    color: var(--text);
+}
+
+.profile-details > div {
+    border-color: var(--border);
+}
+
+.font-preview {
+    background: var(--background);
+    color: var(--text);
+}
+
+.progress-track {
+    background: var(--border);
+}
+
+
+/* FIX WHITE INPUTS AND DROPDOWNS IN DARK THEMES */
+
+input,
+select,
+textarea {
+    background-color: var(--surface) !important;
+    color: var(--text) !important;
+    border: 1px solid var(--border);
+}
+
+/* DATE INPUT */
+input[type="date"] {
+    background-color: var(--surface) !important;
+    color: var(--text) !important;
+    color-scheme: dark;
+}
+
+/* FONT AND LANGUAGE DROPDOWNS */
+select option {
+    background-color: var(--surface);
+    color: var(--text);
+}
+
+/* USER PROFILE INPUTS */
+.profile-card input,
+.auth-card input,
+.password-form input {
+    background-color: var(--surface) !important;
+    color: var(--text) !important;
+}
+
+/* INPUT PLACEHOLDER */
+input::placeholder,
+textarea::placeholder {
+    color: var(--muted);
+    opacity: 1;
+}
+
+/* FOCUS */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: var(--primary);
+    outline: none;
+}
+
+/* PROFILE MAIN CARD */
+
+.profile-card {
+    background: var(--surface) !important;
+    color: var(--text) !important;
+    border: 1px solid var(--border) !important;
+}
+
+/* PROFILE PHOTO */
+
+.profile-photo {
+    background: var(--background) !important;
+    color: var(--text) !important;
+}
+
+.photo-edit {
+    background: var(--primary-dark) !important;
+    color: #FFFFFF !important;
+    border-color: var(--surface) !important;
+}
+
+/* NAME AND EMAIL DETAILS */
+
+.profile-details {
+    background: var(--background) !important;
+    color: var(--text) !important;
+    border: 1px solid var(--border) !important;
+}
+
+.profile-details > div {
+    border-bottom: 1px solid var(--border) !important;
+}
+
+.profile-details label,
+.profile-details strong {
+    color: var(--text) !important;
+}
+
+.profile-details span {
+    color: var(--primary) !important;
+}
+
+/* EDIT PROFILE INPUTS */
+
+.profile-card input,
+.profile-section input,
+.profile-details input,
+.password-form input {
+    background: var(--background) !important;
+    color: var(--text) !important;
+    border: 1px solid var(--border) !important;
+}
+
+.profile-card input::placeholder,
+.profile-section input::placeholder,
+.password-form input::placeholder {
+    color: var(--muted) !important;
+}
+
+/* PASSWORD SECTION */
+
+.password-details {
+    background: var(--background) !important;
+    color: var(--text) !important;
+    border: 1px solid var(--border) !important;
+}
+
+.password-details summary {
+    color: var(--text) !important;
+}
+
+/* PROFILE BUTTONS */
+
+.profile-card .primary-btn {
+    background: var(--primary-dark) !important;
+    color: #FFFFFF !important;
+}
+
+.profile-card .outline-btn {
+    background: transparent !important;
+    color: var(--primary) !important;
+    border: 1px solid var(--primary) !important;
+}
+
+.profile-card .danger-btn {
+    background: #49252D !important;
+    color: #FFB8C0 !important;
+    border: 1px solid #87434E !important;
+}
+
+/* PROFILE TEXT */
+
+.profile-card h2,
+.profile-card h3,
+.profile-card p,
+.profile-card label {
+    color: var(--text);
+}

@@ -1,0 +1,179 @@
+
+/* TABLET */
+
+@media (max-width: 1024px) {
+
+    .sidebar {
+        width: 210px;
+    }
+
+    .main-content {
+        padding: 25px 20px;
+    }
+
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .settings-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .stat-card {
+        padding: 15px;
+    }
+
+    .stat-icon {
+        width: 43px;
+        height: 43px;
+    }
+}
+
+
+/* MOBILE - LEFT SIDE NAVIGATION */
+
+@media (max-width: 768px) {
+
+    .app-layout {
+        flex-direction: row;
+        min-height: 100vh;
+    }
+
+    .sidebar {
+        width: 85px;
+        min-width: 85px;
+        min-height: 100vh;
+        padding: 15px 6px;
+        position: sticky;
+        top: 0;
+        align-self: flex-start;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brand {
+        flex-direction: column;
+        gap: 5px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .brand span {
+        font-size: 23px;
+    }
+
+    .brand h2 {
+        font-size: 11px;
+    }
+
+    .sidebar nav {
+        display: flex;
+        flex-direction: column;
+        overflow: visible;
+        gap: 10px;
+        padding-bottom: 5px;
+    }
+
+    .sidebar nav button {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        width: 100%;
+        min-width: 0;
+        padding: 12px 3px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .sidebar nav button span {
+        font-size: 20px;
+    }
+
+    .sidebar nav button.active {
+        box-shadow: inset 3px 0 white;
+    }
+
+    .sidebar-logout {
+        margin-top: auto;
+        padding: 9px 3px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .sidebar-decoration {
+        display: none;
+    }
+
+    .main-content {
+        flex: 1;
+        min-width: 0;
+        padding: 22px 15px;
+    }
+
+    .welcome-header h1 {
+        font-size: 25px;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .stat-card {
+        padding: 17px;
+    }
+
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .content-card,
+    .add-task-card,
+    .settings-card {
+        padding: 16px;
+    }
+
+    .settings-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-card {
+        padding: 22px 16px;
+    }
+
+    .task-row {
+        flex-wrap: wrap;
+    }
+
+    .task-row span {
+        min-width: 40%;
+    }
+
+    .task-row small {
+        order: 4;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .theme-grid {
+        grid-template-columns: repeat(7, 1fr);
+        gap: 12px;
+    }
+}
+
+.sidebar {
+    width: 70px;
+    min-width: 70px;
+    padding: 12px 4px;
+}
+
+.sidebar nav button {
+    font-size: 9px;
+    padding: 10px 2px;
+}
+
+.sidebar nav button span {
+    font-size: 18px;
+}
