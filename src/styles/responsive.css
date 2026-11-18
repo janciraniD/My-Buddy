@@ -177,3 +177,84 @@
 .sidebar nav button span {
     font-size: 18px;
 }
+
+/* WELCOME PAGE RESPONSIVE */
+
+/* TABLET */
+@media (max-width: 1024px) {
+    .welcome-content {
+        max-width: 500px;
+    }
+
+    .welcome-logo {
+        font-size: 75px;
+    }
+
+    .welcome-content h1 {
+        font-size: 42px;
+    }
+
+    .welcome-description {
+        max-width: 400px;
+        font-size: 14px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .welcome-container {
+        padding: 20px;
+    }
+
+    .welcome-content {
+        padding: 20px 15px;
+    }
+
+    .welcome-logo {
+        font-size: 65px;
+    }
+
+    .welcome-label {
+        font-size: 16px;
+    }
+
+    .welcome-content h1 {
+        font-size: 36px;
+    }
+
+    .welcome-description {
+        font-size: 14px;
+        line-height: 1.7;
+        margin-bottom: 25px;
+    }
+
+    .get-started-btn {
+        min-width: 155px;
+        padding: 12px 22px;
+        font-size: 14px;
+    }
+}
+
+/* SMALL MOBILE */
+@media (max-width: 400px) {
+    .welcome-logo {
+        font-size: 55px;
+    }
+
+    .welcome-label {
+        font-size: 15px;
+    }
+
+    .welcome-content h1 {
+        font-size: 30px;
+    }
+
+    .welcome-description {
+        font-size: 13px;
+    }
+
+    .get-started-btn {
+        min-width: 145px;
+        padding: 11px 18px;
+    }
+}
