@@ -243,6 +243,44 @@
         padding: 12px 22px;
         font-size: 14px;
     }
+
+    .settings-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+    max-width: 100%;
+    gap: 15px;
+    box-sizing: border-box;
+}
+
+.settings-card {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.settings-card select {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.theme-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    width: 100%;
+    gap: 10px;
+}
+
+.main-content {
+    width: 0;
+    flex: 1;
+    min-width: 0;
+    box-sizing: border-box;
+}
 }
 
 /* SMALL MOBILE */
@@ -267,7 +305,7 @@
         min-width: 145px;
         padding: 11px 18px;
     }
-    
+
     .quote-card {
         min-height: 135px;
         padding: 18px 10px;
