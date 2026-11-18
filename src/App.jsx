@@ -206,7 +206,7 @@ function App() {
         return (
             <div className="auth-container">
                 <form className="auth-card" onSubmit={handleAuth}>
-                    <div className="auth-logo">🌿</div>
+                    <div className="auth-logo">∞</div>
                     <h1>My BUDDY</h1>
                     <p>Your everyday productivity partner.</p>
                     <div className="auth-tabs">

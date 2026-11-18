@@ -27,6 +27,15 @@
         width: 43px;
         height: 43px;
     }
+
+    .quote-card {
+    min-height: 165px;
+    padding: 22px 15px;
+   }
+
+   .quote-card p {
+    font-size: 22px;
+  }
 }
 
 
@@ -161,6 +170,21 @@
         grid-template-columns: repeat(7, 1fr);
         gap: 12px;
     }
+
+    .quote-card {
+    min-height: 150px;
+    padding: 20px 12px;
+    margin-top: 15px;
+   }
+
+  .quote-card p {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .quote-card span {
+    font-size: 32px;
+   }
 }
 
 
@@ -242,5 +266,14 @@
     .get-started-btn {
         min-width: 145px;
         padding: 11px 18px;
+    }
+    
+    .quote-card {
+        min-height: 135px;
+        padding: 18px 10px;
+    }
+
+    .quote-card p {
+        font-size: 18px;
     }
 }
